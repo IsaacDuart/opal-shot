@@ -1,0 +1,55 @@
+# Android Studio e editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# Gradle, Kotlin e resultados de compilação
+.gradle/
+.kotlin/
+**/build/
+*.class
+*.dex
+*.ap_
+
+# APKs, bundles e artefatos distribuíveis
+*.apk
+*.aab
+dist/
+captures/
+
+# Compilação nativa Android
+.externalNativeBuild/
+.cxx/
+
+# Configurações específicas da máquina
+local.properties
+keystore.properties
+signing.properties
+secrets.properties
+
+# Chaves e certificados privados
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Variáveis de ambiente e credenciais locais
+.env
+.env.*
+!.env.example
+google-services.json
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
